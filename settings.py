@@ -4,7 +4,7 @@ import os
 
 class Settings:
 
-    SETTINGS_FILE = '42-headers.sublime-settings'
+    SETTINGS_FILE = 'Codam-headers.sublime-settings'
 
     LOGIN_KEY = 'login'
 
@@ -28,7 +28,7 @@ class Settings:
         return '%s by %s' % (formatted, self.login)
 
     def by(self):
-        mail = '%s@student.42.fr' % self.login
+        mail = '%s@student.codam.nl' % self.login
 
         return '%s <%s>' % (self.login, mail)
 
